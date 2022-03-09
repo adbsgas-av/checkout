@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+div.main-container {
+  padding: 1em;
+}
+
+section {
+  display: table;
+}
+
+.label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.anagram-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}

@@ -1,0 +1,4 @@
+<div class="item-list">
+  <app-shopping-basket-item *ngFor="let item of cartItems" [item]="item"></app-shopping-basket-item>
+</div>
+<h3><label>Total: {{totalPrice | currency}}</label></h3>

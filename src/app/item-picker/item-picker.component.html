@@ -1,0 +1,8 @@
+<mat-form-field>
+  <mat-select [(ngModel)]="selectedItem">
+    <mat-option *ngFor="let item of items | async" [value]="item">{{item.name}}</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-label>{{selectedItem?.price | currency}}</mat-label>
+<button mat-raised-button color="primary" (click)="addItem(selectedItem)">Add</button>
+
